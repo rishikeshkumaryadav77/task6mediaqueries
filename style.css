@@ -1,0 +1,20 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+div{
+  height: 200px;
+  width: 200px;
+  border: 1px solid;
+  background-color: chartreuse;
+  border-width: 0px;
+}
+
+@media screen and (width > 600px) {
+  div{
+    box-shadow: 5px 5px 5px 5px  lightblue;
+  }
+}
